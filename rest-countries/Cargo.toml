@@ -1,0 +1,18 @@
+[package]
+name = "rest-countries"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+console_log = "0.2.0"
+gloo-net = "0.2.5"
+log = "0.4.17"
+num-format = "0.4.4"
+serde = {version = "1.0.152", features = ["derive", "rc"]}
+serde_json = "1.0.91"
+wasm-bindgen = "0.2"
+wasm-bindgen-futures = "0.4.33"
+web-sys = {version = "0.3.60", features = ["HtmlSelectElement"]}
+
+yew = { version = "0.20", features = ["csr"] }
+yew-router = "0.17.0"

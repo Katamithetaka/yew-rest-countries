@@ -1,0 +1,32 @@
+.light {
+    --background-color: var(--light-mode-background);
+    --elements-color:   var(--light-mode-elements);
+    --input-color: var(--light-mode-input);
+    --text-color: var(--light-mode-text);
+    --header-border: var(--light-mode-border);
+
+}
+
+.dark {
+    --background-color: var(--dark-mode-background);
+    --elements-color:   var(--dark-mode-elements);
+    --input-color: var(--dark-mode-input);
+    --text-color: var(--dark-mode-text);
+    --header-border: var(--dark-mode-border);
+
+}
+
+:root {
+    --dark-mode-elements: hsl(209, 23%, 22%);
+    --dark-mode-background: hsl(207, 26%, 17%);
+    --dark-mode-text: hsl(0, 0%, 100%);
+    --dark-mode-input: hsl(0, 0%, 100%);
+    --dark-mode-border: hsl(0, 0%, 10%);
+
+    
+    --light-mode-text: hsl(200, 15%, 8%);
+    --light-mode-input: hsl(0, 0%, 52%);
+    --light-mode-background: hsl(0, 0%, 98%);
+    --light-mode-elements: hsl(0, 0%, 100%);
+    --light-mode-border: hsl(0, 0%, 80%);
+}
